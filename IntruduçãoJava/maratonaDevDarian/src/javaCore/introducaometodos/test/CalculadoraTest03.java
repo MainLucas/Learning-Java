@@ -2,10 +2,14 @@ package javaCore.introducaometodos.test;
 
 import javaCore.introducaometodos.dominio.Calculadora;
 
-public class CalculadoraTest02 {
+public class CalculadoraTest03 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.multiplicaDoisNUmeros(2,4);
+
+        double result = calculadora.divideDoisNumeros(20,2);
+        System.out.println(result);
+
+        calculadora.imprimeDivisaoDeDoisNumeros(86,5);
     }
 
 }
