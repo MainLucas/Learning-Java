@@ -2,9 +2,9 @@ package javaCore.Gassociacao.dominio;
 
 public class Jogador {
     private String nome;
-    private Time time;
-
-    public void imprime(){
+    private Time time;  //Jogador pode pertencer a um time
+    private
+    void imprime(){
         System.out.println(this.nome);
         if (time != null){
             System.out.println(time.getNome());

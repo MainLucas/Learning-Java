@@ -6,7 +6,7 @@ public class Aula04OperadorTernario {
         String mesagemDoar = "Eu vou doar 500 pro DevDojo";
         String mesagemNaoDoar = "Ainda não tenho condições, mas vou ter! ";
         String resultado;
-        //UTILIZANDO ESTRUTA SIMPLES DE IF E ELSE;
+        //UTILIZANDO ESTRUTURA SIMPLES DE IF E ELSE;
         if(salario > 5000){
             resultado = mesagemDoar;
         }
